@@ -43,7 +43,8 @@ a.login:hover {
 
 /**************************** homelanding *********************************/
 .container-custom {
-    margin: 100px 0 13px 0px;
+    margin: 20px 0px 13px 50px;
+    padding: 0px 10px;
 }
 
 /********************************content one*******************************/
