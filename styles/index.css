@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/***************************** navbar ************************************/
+.custom-navbar {
+/*  
+    background-color:#ffffff;
+    height: 90px; 
+    position:fixed;
+    z-index:34;
+    width:100%;
+    */
+}
+
+h2 {
+    color: #44bd32;
+}
+
+a {
+    width: 100px;
+}
+
+a.links {
+    font-weight: bold;
+}
+
+a.links:hover {
+    color: #44bd32;
+}
+
+a.login {
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    background-color: #009432;
+}
+
+a.login:hover {
+    background-color: #44bd32;
+}
+
+/**************************** homelanding *********************************/
+.container-custom {
+    margin: 100px 0 13px 0px;
+}
+
+/********************************content one*******************************/
+.email {
+    width: 400px;
+    height: 50px;
+    background-color: #f1f1f1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+input[type="email"] {
+    height: 33px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+}
+
+input[type="email"]::placeholder {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.email>a {
+    font-size: 13px;
+    width: 120px;
+    outline: none;
+    border: none;
+}
+
+.txt-login {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.txt-login>a {
+    color: #7f7f7f;
+
+}
+
+.txt-login>a:hover {
+    color: #1eaa59;
+}
+
+.content1 img {
+    width: 800px;
+    height: 500px;
+}
+
+.icons i {
+    color: #1eaa59;
+    text-align: center;
+}
+
+.icons h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363d41;
+}
+
+.content1 .txt-items {
+    color: #6d6d6d;
+}
+/********************************content two*******************************/
+.content2 {
+    background-color: #f9f9f9;
+
+}
+
+.content2 img {
+    width: 650px;
+    height: 450px;
+    border-radius: 10% 30% 50% 70%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.content2 .txt-items {
+    font-size: 15px;
+    padding-left: 55px;
+}
+/********************************footer*******************************/
+.footer>div.icons {
+    position: relative;
+    height: 170px;
+}
+
+.footer>div.icons::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -20%;
+    width: 140%;
+    height: 1px;
+    background-color: #939393;
+    margin: -26px 0px;
+}
+
+.footer > p {
+    font-size: 13px;
+    color: #939393;
+}
+
+.footer > p > i {
+    font-size: 10px;
+}
+/******************************** SocialBtn ********************************/
+.btn-custom {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.btn-custom .icons {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.btn-custom:nth-child(1) .icons {
+    background: #4267b2;
+}
+
+.btn-custom:nth-child(1) .icons:hover{
+    opacity:0.85;
+}
+
+.btn-custom:nth-child(1) i {
+    color: #ffffff;
+}
+
+.btn-custom:nth-child(2) .icons {
+    background: #1da1e2;
+}
+
+.btn-custom:nth-child(2) .icons:hover {
+    opacity: 0.85;
+}
+
+
+.btn-custom:nth-child(2) i {
+    color: #ffffff;
+}
+
+.btn-custom:nth-child(3) .icons {
+    background: linear-gradient(220deg,#e1316c,#fbc531);
+}
+
+.btn-custom:nth-child(3) .icons:hover {
+    opacity: 0.85;
+
+}
+
+.btn-custom:nth-child(3) i {
+    color: #fff;
+}
+
+.btn-custom > .icons {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn-custom .icons i {
+    font-size: 20px;
+    line-height: 60px;
+}
