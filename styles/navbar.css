@@ -49,6 +49,7 @@
 .navbar .toggle-btn{
     font-size: 1.5rem;
     cursor: pointer; 
+    color: #fff;
 }
 .action-btn{
     border: none;
@@ -81,9 +82,7 @@
 .dropdown-list li:not(:last-child){
     background-color: rgba(0, 0, 0, 0.1);
 }
-.dropdown-list li:hover{
-    background-color: green;
-}
+
 .dropdown-list.open{
     height: fit-content;
 }
@@ -91,6 +90,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.dropdown-list li:hover{
+    background-color: #45bd327b;
+}
+.dropdown-list li a:hover{
+    color: #fff;
 }
 /* End navbar */
 /* Start Resbonsive  */

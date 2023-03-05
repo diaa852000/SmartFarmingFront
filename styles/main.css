@@ -66,23 +66,29 @@ a{
 }
 /************************************** End Contnet-one *********************************/
 /**************************************Start Category *********************************/
+.category{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px,1fr));
+    gap: 20px;
+}
+.category img{
+    width: 100%;
+    height: 100%;
+    border-radius:49% 51% 67% 33% / 56% 38% 62% 44% ;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.1) 0px 0px 0px 1px; */
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
 .category h2{
     color: #4cd137;
     text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .category a{
-    text-decoration: underline;
     color: #44bd32;
 }
 .category a:hover{
-    color: yellowgreen;
+    color: rgba(0, 0, 0, 0.53);
 }
-.category #humidity h2 i{
-    color: #718093;
-}
-.category #temperature h2 i{
-    color: #f9ca24;
-}
+
 /************************************ End Category **********************************/
 /************************************ Start About ***********************************/
 .services ul li{
@@ -102,7 +108,7 @@ a{
     background-color: rgba(0, 0, 0, 0.33);
 }
 /************************************ End About ************************************/
-@media(max-width:768px){
+@media(max-width:767px){
     .services ul::before{
         display: none;
     }
@@ -114,5 +120,14 @@ a{
         width: 100%;
         height: 1px;
         background-color: rgba(0, 0, 0, 0.33);
+    }
+    .services .intro{
+        width: 100% !important;
+    }
+}
+@media (max-width:720px) {
+    .category{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     }
 }
