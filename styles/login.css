@@ -7,10 +7,6 @@ body{
     background-image: linear-gradient(90deg,#9C27B0, #673AB7 );
 }
 
-/* .form-check-input:checked{
-    background-color: forestgree;
-} */
-
 .btn.dark{
     background: #673AB7 !important;
 }

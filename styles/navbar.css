@@ -1,6 +1,17 @@
 .navbar{
     height: 80px;
+    position: relative;
 }
+/* .navbar::after{
+    content: "";
+    position: absolute;
+    top: 96%;
+    left: center;
+    width: 50%;
+    height: 1px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}  */
 .navbar li{
     position: relative;
 }
@@ -44,11 +55,13 @@
     outline: none;
     font-size: 0.8rem;
     padding: 0.6rem 1.2rem;
+    width: 100px;
     cursor: pointer;
     background-color: #44bd32;
 }
 .action-btn:hover{
     color: #fff;
+    border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.24);
 }
 
