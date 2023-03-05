@@ -1,0 +1,75 @@
+/******************************************* imports ******************************************/
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,800&display=swap');
+@import url("../styles/navbar.css");
+@import url("../styles/footer.css");
+/* @import url("../styles/cards.css"); */
+/******************************************* imports ******************************************/
+/******************************************* Start general*************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 0.96rem;
+}
+/******************************************* End general *****************************************/
+/******************************************* Start Content-one ***********************************/
+.custom-container {
+    background-image: url(../images/8400.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+.glassess{
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.29);
+}
+.content-one ul li{
+    width: 120px;
+    height: 55px;
+}
+.content-one h2{
+    color: rgba(255, 255, 255, 0.9);
+}
+.content-one p{
+    color: rgba(255, 255, 255, 0.9);
+}
+.content-one ul li:first-child{
+    background-color: #44bd32;
+}
+.content-one ul li:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid #ffff;
+}
+.content-one ul li:nth-child(2):hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.content-one ul li:hover a{
+    color: #fff;
+}
+.content-one ul li:hover{
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid #fff;
+}
+
+/************************************** End Contnet-one *********************************/
+/**************************************Start Category *********************************/
+.category img{
+    max-width: 100%;
+    height: 100%;
+}
+/*************************************End Category ************************************/
+/*************************************Start footer**************************************/
+
+/*******************************************End footer***********************************/
+/*******************************************Start media querey***************************/
